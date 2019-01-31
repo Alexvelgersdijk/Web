@@ -1,0 +1,77 @@
+body { /* Vormgeving van de achtergrond */
+		background-image: url("background.jpeg"); 
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		margin-top: 0;
+		margin-bottom: 0;
+}
+section { /* Vormgeving van het middenblok */
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-top: 0;
+		margin-bottom: 0;
+}
+header { /* blok waar de company name instaat */
+		background-image: url("companylogoBG.jpg");
+		background-size: 100% 150%;
+}
+nav { /* Vormgeving grijze navigatiebalk */
+		font-family: "Arial";
+		font-size:;
+		color: #FFFFFF;
+		text-align: center;
+		word-spacing: 20px;
+		background-color: #707070;
+		padding-top: 7.5px; 
+		padding-bottom: 7.5px;
+}
+img { /* Instellingen van de foto's */
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 0;
+}
+h1 { /* De tekst in het blok van de header */
+		font-family: "Berlin Sans FB";
+		font-size: 300%;
+		color:#FFFFFF;
+		text-align: center;
+		padding-top: 25px; 
+		padding-bottom: 25px;
+		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-weight: 500; 
+}
+h2 { /* Tekst in de blauwe vakken */
+		font-family: "Arial";
+		font-size: 350%;
+		font-weight: normal; 
+		color:#FFFFFF;
+		text-align: center;
+		background-color: #2699FB;
+		padding-top: 15px; 
+		padding-bottom: 15px;
+		padding-right: 40px;
+		padding-left: 40px;
+		margin-top: 0;
+		margin-bottom: 0;
+		height: 125px;
+}
+p { /* Tekst in de footer  */
+		font-family: "Arial";
+		font-size:;
+		font-weight: normal; 
+		color:#FFFFFF;
+		text-align: center;
+		background-color: #000000;
+		padding-top: 7.5px; 
+		padding-bottom: 7.5px;
+		margin-top: 0;
+		margin-bottom: 0;
+}
+a { /* Tekst in de navigatiebalk */
+		color: white;
+		text-decoration: none;
+}
